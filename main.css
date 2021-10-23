@@ -47,29 +47,31 @@ section {
 
 .navbar {
   overflow: hidden;
-  position: absolute;
-  width: 297px;
-  top: 60px;
-  right: 100px;
-  background-color: #171717;
-  border: 1px solid #da0037;
+  position: relative;
+  width: 296.5px;
+  top: 8vh;
+  right: -155vh;
+  background-color: #da0037;
   border-radius: 30px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028), 12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042), 41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
 .navbar a {
   float: left;
-  color: #f2f2f2;
+  color: #171717;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   font-family: poppins;
-  transition: 500ms;
+  transition: 400ms;
 }
 
 .navbar a:hover {
-  background-color: #222222;
-  color: rgb(255, 255, 255);
+  background-color: #242424;
+  color: #da0037;
+  box-shadow: 0px;
 }
 
 .navbar a.active {
@@ -95,7 +97,7 @@ section {
   font-family: Poppins;
   font-weight: bolder;
   font-size: 70px;
-  right: 62.6%;
+  right: 62.5%;
   top: 37%;
 }
 
@@ -279,4 +281,65 @@ section {
 
 .discord:hover {
   color: #da0037;
+}
+
+@media screen and (max-width: 1536px) {
+  .navbar {
+    overflow: hidden;
+    position: absolute;
+    width: 296.5px;
+    top: 8vh;
+    right: 15%;
+    background-color: #da0037;
+    border-radius: 30px;
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028), 12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042), 41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+      100px 100px 80px rgba(0, 0, 0, 0.07);
+  }
+
+  .header {
+    position: absolute;
+    color: #da0037;
+    font-family: poppins;
+    text-align: left;
+    font-size: 25px;
+    top: 35%;
+    right: 78.8%;
+  }
+
+  .aboutme {
+    position: absolute;
+    top: 50%;
+    right: 83.5%;
+  }
+
+  .box4 {
+    position: absolute;
+    right: 43%;
+  }
+
+  .contact {
+    position: absolute;
+    top: 159%;
+    right: 84%;
+  }
+
+  .github {
+    right: 54.3%;
+    top: 192%;
+  }
+
+  .discord {
+    right: 48.5%;
+    top: 192%;
+  }
+
+  .insta {
+    right: 60%;
+    top: 192%;
+  }
+
+  #sec-2 {
+    background-image: url("assets/image/Web\ 1920\ –\ 2.png");
+    background-position: 50% 60%;
+  }
 }
