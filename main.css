@@ -344,7 +344,7 @@ section {
   }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 400px) {
   .navbar {
     position: absolute;
     right: 12%;
