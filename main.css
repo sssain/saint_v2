@@ -4,8 +4,14 @@ body {
   margin: 0;
   padding: 0;
 }
-html {
+html,
+body {
   scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 section {
   min-height: 100vh;
@@ -344,7 +350,7 @@ section {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 600px) {
   .navbar {
     position: absolute;
     right: 12%;
@@ -422,5 +428,119 @@ section {
     right: 62%;
     top: 200%;
     color: #313131;
+  }
+}
+
+@media (min-width: 992px) {
+  /* section 1 */
+
+  .header {
+    position: relative;
+    right: -12.2rem;
+    top: 21rem;
+  }
+
+  .name {
+    position: relative;
+    right: -12rem;
+    top: 20rem;
+  }
+
+  .aboutme {
+    position: relative;
+    right: -12rem;
+    top: 20rem;
+  }
+
+  #sec-1 {
+  }
+
+  /* section 2 */
+
+  .headingsec2 {
+    position: relative;
+    right: -10rem;
+  }
+
+  .box {
+    position: relative;
+    right: -40rem;
+    top: -20rem;
+  }
+
+  .box2 {
+    position: relative;
+    right: -42rem;
+    top: -18rem;
+  }
+
+  .box3 {
+    position: relative;
+    right: -37rem;
+    top: -16rem;
+  }
+
+  .box4 {
+    position: relative;
+    right: -35rem;
+    top: -14rem;
+  }
+
+  .description {
+    position: relative;
+    text-align: left;
+    right: -10rem;
+  }
+
+  .contact {
+    position: relative;
+    right: -10rem;
+    top: -9rem;
+  }
+
+  /* footer button */
+
+  .discord {
+    position: relative;
+    right: -42rem;
+    top: 13.8rem;
+  }
+
+  .github {
+    position: relative;
+    right: -33.5rem;
+    top: 13.8rem;
+  }
+
+  .insta {
+    position: relative;
+    right: -25rem;
+    top: 13.8rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact {
+    position: relative;
+    right: -3rem;
+    top: -9rem;
+  }
+
+  .discord {
+    position: relative;
+    right: -65rem;
+    top: 20rem;
+  }
+
+  .github {
+    position: relative;
+    right: -57rem;
+    top: 20rem;
+  }
+
+  .insta {
+    position: relative;
+    right: -49rem;
+    top: 20rem;
   }
 }
